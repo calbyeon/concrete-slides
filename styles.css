@@ -1,0 +1,76 @@
+body {
+    font-family: monospace;
+    margin:0;
+    padding: 0;
+    height:100%;
+    display: flex;
+    flex-direction: column;
+}
+.title-section {
+    display: flex;
+    flex: 1 1 auto;
+    
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+    font-size: 72px;
+    overflow-y:scroll;
+
+}
+
+.header {
+    justify-self: flex-start;
+    flex-shrink: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 36px;
+    padding: 10px;
+    background-color: whitesmoke;
+}
+
+.header > * {
+    
+    box-sizing: border-box;
+    width: 50%;
+    text-align: center;
+}
+
+
+.footer {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-flow: row nowrap;
+    flex: 1;
+    justify-content: space-between;
+    font-size: 36px;
+    background-color: whitesmoke;
+    padding: 10px 30px;
+    box-sizing: border-box;
+    width: 100%;
+    text-align: center;
+    justify-self: flex-end;
+}
+
+.center-header{
+    font-size: 36px;
+}
+
+.title {
+    margin: 36px;
+}
+
+.title:hover {
+    background-image: url("concrete.jpg");
+    background-size: 50%;
+    color: white;
+}
+
+.right-header:hover { 
+    color:pink;
+}
+
+.footer> *:hover {
+    color:blueviolet;
+}
